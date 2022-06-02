@@ -8,6 +8,10 @@ public class App
 
         //Initialize
         Scanner sc = new Scanner(System.in);
+        String[][] arr = {  {}, {}, {},
+                            {}, {"~"}, {}, 
+                            {}, {}, {} };
+        System.out.println(arr[][].indexOf("~"));
         int limit = 10;
         Random rand = new Random();
         String  snake = "~";
